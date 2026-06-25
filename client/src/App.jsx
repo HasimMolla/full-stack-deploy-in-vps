@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("")
 
   useEffect(() => {
-    fetch("/api/message") // automatically vite configaration add the target and change the origin
+    fetch("http://173.0.110.153:4000/api/message") // automatically vite configaration add the target and change the origin
       .then((res) => res.json()) // data convert string to json
       .then((data) => setMessage(data.message))
       .catch((err) => {
