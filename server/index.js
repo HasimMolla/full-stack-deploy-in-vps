@@ -10,6 +10,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:3000",
+      "http://173.0.110.153:5173",
       // add production url ip or domain
     ], // need to add origin, google client id
     credentials: true, // cookies accept, auth headers accept
